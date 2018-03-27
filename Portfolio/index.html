@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Julien Childress</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>-->
+
+
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="index.html"><img src="img/name.png">
+		</div>	
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#Background">Background</a></li>
+				<li><a href="#Resume">Resume</a></li>
+			</ul>	
+		</div>
+	
+	</div>	
+
+
+</nav>
+
+<div id="Page1">
+  <a id="Home" class="smooth"></a>
+   
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img src="img/red.jpg">
+			<div class="carousel-caption">
+				<h1>WELCOME TO MY PORTFOLIO!</h1>
+				<br>
+			</div>
+		</div> 
+		<div class="item">
+			<img src="img/san_jose.jpg">
+			<div class="carousel-caption">
+				<h1>I was born and raised in San Jose, CA</h1>
+				<br>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/umich.jpg">
+			<div class="carousel-caption">
+				<h1>I currently attend the University of Michigan</h1>
+				<br>
+			</div>
+		</div>		
+	</div>	
+	<!--Start Slider Controls -->
+		
+</div> <!--End slider -->
+
+</div>
+
+<div id="Page2">
+<script>
+var shiftWindow = function() { scrollBy(0, -55) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+</script>
+
+  <a id="Portfolio" class="smooth"></a>
+
+
+
+<div class="container text-center">
+	<h2>My Portfolio</h2>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="img/explorest1.png" id="icon">
+			<h4>Explorest</h4>
+				
+		</div>
+		<div class="col-sm-4">
+			<img src="img/newyork.jpg" id="icon">
+			<h4>UMSI Innovation Trek</h4>
+				
+		</div>	
+		<div class="col-sm-4">
+			<img src="img/sketch.jpg" id="icon">
+			<h4>Graphic Design Projects</h4>
+		</div>		
+		
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="img/M.png" id="icon">
+			<h4>Michigan Clubs</h4>
+		</div>
+		<div class="col-sm-4">
+			<img src="img/pc.png" id="icon">
+			<h4>Computer Experience</h4>
+		</div>	
+		<div class="col-sm-4">
+			<img src="img/data.jpg" id="icon">
+			<h4>Data Analysis Projects</h4>
+		</div>		
+		
+	</div>		
+</div>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h4>Here's the cool thing about bootstrap</h4>
+			<p>sfsfsfsf</p>
+			<p>sfsfsfs</p>
+		</div>
+
+		<div class="col-md-6">
+			<img src="img/bootstrap2.jpg" class="img-responsive">
+			
+		</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="Page3">
+  <a id="Background" class="smooth"></a>
+
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<h4>My Education Background</h4>
+			<p>Going through school in San Jose, CA, I decided to look out of state for my college experience. I chose the University of Michigan as it fit all of my criteria for a college experience. The School of Information at Michigan has allowed me to strengthen both my design and analytical abilities through its diverse course offerings. I have been able to learn invaluable coding languages ranging from Python that will help me parse through large data sets as well as web design languages like HTML and CSS. The UX path has also given me the tools needed to create functioning prototypes that I can improve on with user interviews and testing.</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<img src="img/sass.png" class="img-responsive">
+			
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<h4>My Personal Background</h4>
+			<p>Growing up I have always had a fascination for computers and technology. I enjoy reading up on computer hardware and learning how online applications work through web design and database technology. My interest for the School of Information was helped by this early love for technology and I was curious to learn more behind the science of collecting and interpreting data to make the world a better place. I hope to continue developing the skills I have learned from the Information school for my future career path.</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<img src="img/less.png" class="img-responsive">
+			
+		</div>
+
+	</div>
+
+	</div>
+
+</div>
+
+<div id="Page4">
+  <a id="Resume" class="smooth"></a>
+
+	<div class="container text-center">
+	<h2>What We're Using</h2>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="img/html5.png" id="icon">
+			<h4>HTML5</h4>
+		</div>
+		<div class="col-sm-4">
+			<img src="img/bootstrap.png" id="icon">
+			<h4>Bootstrap</h4>
+		</div>	
+		<div class="col-sm-4">
+			<img src="img/css3.png" id="icon">
+			<h4>CSS3</h4>
+		</div>		
+		
+	</div>	
+</div>
+
+</div>	
+
+
+
+<footer class="container-fluid" text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Contact Me</h3>
+			<br>
+			<h4>My Address and Contact Info Here:</h4>
+		</div>
+		<div class="col-sm-4">
+			<h3>Connect</h3>
+			<a href="#" class = "fa fa-facebook"></a>
+			<a href="#" class = "fa fa-twitter"></a>
+			<a href="#" class = "fa fa-google"></a>
+			<a href="#" class = "fa fa-linkedin"></a>
+		</div>
+		<div class="col-sm-4">
+			<img src="img/bunny.png" class="icon">
+		</div>
+	</div>
+</footer>
+
+	
+
+
+</body>
+</html>
