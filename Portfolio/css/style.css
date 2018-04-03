@@ -167,12 +167,9 @@ h4 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: red;
 }
 
-.container:hover .overlay {
-  opacity: 1;
-}
 
 .text {
   color: white;
@@ -184,3 +181,7 @@ h4 {
   -ms-transform: translate(-50%, -50%);
 }
 
+
+.thumbnail:hover .overlay {
+	opacity: 1;
+}
