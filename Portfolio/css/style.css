@@ -85,16 +85,13 @@
 		padding: 10px;
 	}
 
-	#Education {
-		max-width: 100px;
-	}
-
-	#Personal {
-		max-height: 100px;
-	}
 
 	p {
 		font-size: .85em;
+	}
+
+	h1 {
+		font-size: 4em;
 	}
 }
 
