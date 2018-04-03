@@ -172,7 +172,7 @@ h4 {
 
 
 .text {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -184,4 +184,9 @@ h4 {
 
 .thumbnail:hover .overlay {
 	opacity: 1;
+}
+
+
+.footer-text {
+	color: black;
 }
