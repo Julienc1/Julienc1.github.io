@@ -23,6 +23,11 @@
 
 }
 
+.navbar button {
+	color: black;
+	background-color: black;
+}
+
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover, {
 	color: red;
@@ -78,6 +83,18 @@
 	.fa {
 		font-size: 20px;
 		padding: 10px;
+	}
+
+	#Education {
+		max-width: 100px;
+	}
+
+	#Personal {
+		max-height: 100px;
+	}
+
+	p {
+		font-size: .85em;
 	}
 }
 
