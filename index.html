@@ -1,11 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <title>Julien Childress</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script  src="js/smoothscroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>-->
+
+
+
+
+
 </head>
 <body>
-	<h1 class ="title">Web Design</h1>
-</body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button> -->
 
+			<a class="navbar-brand" href="index.html"><img src="img/name.png" alt="name image"></a>
+		</div>	
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#Background">Background</a></li>
+				<li><a href="#Contact">Contact Me</a></li>
+			</ul>	
+		</div>
+	
+	</div>	
+
+
+</nav>
+
+<div id="Page1">
+  <a id="Home" class="smooth"></a>
+   
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img src="img/red.jpg" alt="red-background">
+			<div class="carousel-caption">
+				<h1>WELCOME TO MY PORTFOLIO!</h1>
+				<br>
+			</div>
+		</div> 
+		<div class="item">
+			<img src="img/san_jose.jpg" alt="San-Jose">
+			<div class="carousel-caption">
+				<h1>I was born and raised in San Jose, CA</h1>
+				<br>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/umich.jpg" alt="University-of-Michigan">
+			<div class="carousel-caption">
+				<h1>I currently attend the University of Michigan</h1>
+				<br>
+			</div>
+		</div>		
+	</div>	
+
+		
+</div> 
+
+</div>
+
+<div id="Page2">
+<script>
+var shiftWindow = function() { scrollBy(0, -55) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+</script>
+
+  <a id="Portfolio" class="smooth"></a>
+
+
+
+<div class="container text-center">
+	<h2>My Portfolio</h2>
+	<div class="row">
+		<div class="col-sm-4 thumbnail">
+			<img src="img/explorest1.png" alt="explorest-logo" id="icon1" title="Hello">
+			<div class="overlay">
+    			<div class="text">My internship with Explorest allowed me to create and manage their blog platform. </div>
+  			</div>
+			<h4>Explorest</h4>
+				
+		</div>
+		<div class="col-sm-4 thumbnail">
+			<img src="img/newyork.jpg" alt="innovation-trek" id="icon2">
+			<div class="overlay">
+    			<div class="text">Defined product idea and design guidelines based on user research and UX-design methods.</div>
+  			</div>
+			<h4>UMSI Innovation Trek</h4>
+				
+		</div>	
+		<div class="col-sm-4 thumbnail">
+			<img src="img/sketch.jpg" alt="sketch" id="icon3">
+			<div class="overlay">
+    			<div class="text">My portfolio includes posters, mobile application ideas, and prototypes.</div>
+  			</div>
+			<h4>Graphic Design Projects</h4>
+		</div>		
+		
+	</div>
+	<div class="row">
+		<div class="col-sm-4 thumbnail">
+			<img src="img/M.png" alt="M-logo" id="icon4">
+			<div class="overlay">
+    			<div class="text">I have been a part of the exec board in Greek Life at Michigan. </div>
+  			</div>
+			<h4>Michigan Extracurriculars </h4>
+		</div>
+		<div class="col-sm-4 thumbnail">
+			<img src="img/pc.png" alt="PC" id="icon5">
+			<div class="overlay">
+    			<div class="text">Building my own computer has allowed me to gain an understanding of computer hardware and technology.</div>
+  			</div>
+			<h4>Computer Experience</h4>
+		</div>	
+		<div class="col-sm-4 thumbnail">
+			<img src="img/data.jpg" alt="data-image" id="icon6">
+			<div class="overlay">
+    			<div class="text">Here are a few examples of data analysis projects I have completed at the School of Information and for Explorest.</div>
+  			</div>
+			<h4>Data Analysis Projects</h4>
+		</div>		
+		
+	</div>		
+</div>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h4>Internship Experience</h4>
+			<p>My internship this past summer working for Explorest as a Business Analyst Intern has also provided me with a wide array of experiences and skills that will be incredibly useful for my future career path. Not only has working for a small start-up given me a glimpse of the inner workings of a fully functioning business, but I have also been able to head projects and complete tasks that have directly impacted the company’s progress and trajectory. Various projects that I have worked on include: designing and implementing the blog solution for Explorest in order to attract traffic and revenue to the company through content and affiliate marketing, researching VC’s to find potential investment partners, creating scaling and marketing plans for the platform’s imminent launch in California, and devising a content plan that will keep our blog on track and up-to-date in the coming months. Furthermore, I am currently learning how to analyze user data collected from traffic on the mobile application to make future adjustments to the on-boarding flow and subscription model. Working alongside the CEO and other founders has also been a fantastic experience as they have imparted their knowledge and past experiences in the business world.</p>
+			
+		</div>
+		<div class="col-md-6">
+			<img src="img/explorest2.jpg" alt="Explorest-picture" class="img-responsive">
+			
+		</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="Page3">
+  <a id="Background" class="smooth"></a>
+  <div class="container text-center">
+	<h2>Background</h2>
+
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+			<h4>My Education Background</h4>
+			<p>Going through school in San Jose, CA, I decided to look out of state for my college experience. I chose the University of Michigan as it fit all of my criteria for a college experience. The School of Information at Michigan has allowed me to strengthen both my design and analytical abilities through its diverse course offerings. I have been able to learn invaluable coding languages ranging from Python that will help me parse through large data sets as well as web design languages like HTML and CSS. The UX path has also given me the tools needed to create functioning prototypes that I can improve on with user interviews and testing.</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<img src="img/education.png" alt="education-background" class="img-responsive">
+			
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+			<h4>My Personal Background</h4>
+			<p>Growing up I have always had a fascination for computers and technology. I enjoy reading up on computer hardware and learning how online applications work through web design and database technology. My interest for the School of Information was helped by this early love for technology and I was curious to learn more behind the science of collecting and interpreting data to make the world a better place. I hope to continue developing the skills I have learned from the Information school for my future career path.</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<img src="img/personal.png" alt="personal-background" class="img-responsive">
+			
+		</div>
+
+	</div>
+
+	</div>
+
+</div>
+
+</div>
+
+<div id="Page4">
+  <a id="Contact" class="smooth"></a>
+
+<div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <h1>Contact Me</h1>
+
+                    <p class="lead">Feel free to leave me a message with any questions you have for me or my portfolio!</p>
+
+                    <form id="contact-form" method="post" action=mailto:julien.childress@sbcglobal.net enctype="text/plain">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Lastname" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone Number</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave me a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        
+    </div>
+
+</form>
+
+              
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+<footer class="container-fluid text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<br>
+			
+		</div>
+		<div class="col-sm-4 text-center">
+			<h3>Connect</h3>
+			<a href="https://www.facebook.com/julien.childress?ref=bookmarks" aria-label="Facebook profile" class = "fa fa-facebook"></a>
+			<a href="https://twitter.com/JulienChildress" aria-label="Twitter profile" class = "fa fa-twitter"></a>
+			<a href="https://plus.google.com/u/1/109127522702549700359" aria-label="Google profile" class = "fa fa-google"></a>
+			<a href="https://www.linkedin.com/in/julien-childress-331a49b2/" aria-label="LinkedIn profile" class = "fa fa-linkedin"></a>
+
+			<div class="col-lg-12 footer-text text-center">
+                        Copyright © Julien Childress 2018
+                    </div>
+		</div>
+		
+	</div>
+
+</footer>
+
+
+
+</body>
+</html>
