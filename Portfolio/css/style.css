@@ -60,6 +60,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	text-transform: uppercase;
+
 }
 
 .carousel-inner .item img {
@@ -79,7 +80,7 @@
 
 }*/
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
 	.fa {
 		font-size: 20px;
 		padding: 10px;
@@ -87,7 +88,7 @@
 
 
 	p {
-		font-size: .85em;
+		font-size: .95em;
 	}
 
 	h1 {
@@ -146,13 +147,16 @@
 
 footer {
 	width: 100%;
-	background-color: white;
+	
 	padding: 5%;
 	color: red;
 	border-top: 2px solid red;
 	margin: 0;
 
+
 }
+
+
 
 .fa {
 	padding: 15px;
@@ -203,4 +207,10 @@ h4 {
 
 .footer-text {
 	color: black;
+}
+
+.footer {
+
+background: url("../img/red_smoke.jpg") center no-repeat;
+height: 50%;
 }

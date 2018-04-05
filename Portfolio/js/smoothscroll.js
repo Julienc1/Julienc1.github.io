@@ -61,11 +61,11 @@ var ss = {
     }
     if (!destinationLink) destinationLink = document.getElementById(anchor);
 
-    // If we didn't find a destination, give up and let the browser do
-    // its thing
+
+
     if (!destinationLink) return true;
   
-    // Find the destination's position
+   
     var destx = destinationLink.offsetLeft; 
     var desty = destinationLink.offsetTop;
     var thisNode = destinationLink;
