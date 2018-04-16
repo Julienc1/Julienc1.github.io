@@ -1,4 +1,21 @@
+* {
+	
+}
+
+
 img {
-	width: 50%;
+	width: 38.5%;
+	display: inline-block;
 	border: blue solid 5px;
+	padding: 5%;
+
+}
+
+
+html {
+	background: url("../images/sun-pattern.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
